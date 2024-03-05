@@ -1,0 +1,201 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "laravel_jwt_mult_auth",
+    "dateExported": "2024-03-05T16:30:36.660Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2a52d06d-5e84-414e-b749-8b685a10ccc0",
+            "colId": "e9999e12-afc7-4d95-8cb1-92c91660e184",
+            "containerId": "",
+            "name": "admin-logout",
+            "url": "127.0.0.1:8000/api/admin/logout",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-05T16:28:48.843Z",
+            "modified": "2024-03-05T16:28:48.843Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2FkbWluL2xvZ2luIiwiaWF0IjoxNzA5NjU1NDgxLCJleHAiOjE3MDk2NTkwODEsIm5iZiI6MTcwOTY1NTQ4MSwianRpIjoiSkdLd25PeTVka0F5MmVEbiIsInN1YiI6IjEiLCJwcnYiOiJkZjg4M2RiOTdiZDA1ZWY4ZmY4NTA4MmQ2ODZjNDVlODMyZTU5M2E5Iiwicm9sZSI6ImFkbWluIn0.Bbd11mWsWGxo_EWPOSnvVOBXuxQFPC0YMB_vha9tX3s"
+            },
+            "tests": []
+        },
+        {
+            "_id": "dc87b81d-dde1-46f5-9990-44bfa3966546",
+            "colId": "e9999e12-afc7-4d95-8cb1-92c91660e184",
+            "containerId": "",
+            "name": "admin-login",
+            "url": "127.0.0.1:8000/api/admin/login?email=admin1@e.c&password=aaaaaaaa",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-05T16:28:59.728Z",
+            "modified": "2024-03-05T16:28:59.728Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "email",
+                    "value": "admin1@e.c",
+                    "isPath": false
+                },
+                {
+                    "name": "password",
+                    "value": "aaaaaaaa",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "73652247-6021-49f8-9566-818c7dd7ec82",
+            "colId": "e9999e12-afc7-4d95-8cb1-92c91660e184",
+            "containerId": "",
+            "name": "Admin-Reg",
+            "url": "127.0.0.1:8000/api/admin/reg?name=admin2&email=admin2@e.c&password=aaaaaaaa&password_confirmation=aaaaaaaa",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-03-05T16:29:07.075Z",
+            "modified": "2024-03-05T16:29:07.075Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "name",
+                    "value": "admin2",
+                    "isPath": false
+                },
+                {
+                    "name": "email",
+                    "value": "admin2@e.c",
+                    "isPath": false
+                },
+                {
+                    "name": "password",
+                    "value": "aaaaaaaa",
+                    "isPath": false
+                },
+                {
+                    "name": "password_confirmation",
+                    "value": "aaaaaaaa",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "e1b658ba-4598-4dd5-8f54-8ce5d80c5b39",
+            "colId": "e9999e12-afc7-4d95-8cb1-92c91660e184",
+            "containerId": "",
+            "name": "admin-profile",
+            "url": "127.0.0.1:8000/api/admin/profile",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-03-05T16:29:14.157Z",
+            "modified": "2024-03-05T16:29:14.157Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2FkbWluL2xvZ2luIiwiaWF0IjoxNzA5NjU1NDgxLCJleHAiOjE3MDk2NTkwODEsIm5iZiI6MTcwOTY1NTQ4MSwianRpIjoiSkdLd25PeTVka0F5MmVEbiIsInN1YiI6IjEiLCJwcnYiOiJkZjg4M2RiOTdiZDA1ZWY4ZmY4NTA4MmQ2ODZjNDVlODMyZTU5M2E5Iiwicm9sZSI6ImFkbWluIn0.Bbd11mWsWGxo_EWPOSnvVOBXuxQFPC0YMB_vha9tX3s"
+            },
+            "tests": []
+        },
+        {
+            "_id": "8898778f-d6ab-4891-b21b-ca293045393e",
+            "colId": "e9999e12-afc7-4d95-8cb1-92c91660e184",
+            "containerId": "",
+            "name": "subadmin-reg",
+            "url": "127.0.0.1:8000/api/subadmin/reg?name=subadmin2&email=subadmin2@e.c&password=aaaaaaaa&password_confirmation=aaaaaaaa",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-03-05T16:29:43.610Z",
+            "modified": "2024-03-05T16:29:43.610Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "name",
+                    "value": "subadmin2",
+                    "isPath": false
+                },
+                {
+                    "name": "email",
+                    "value": "subadmin2@e.c",
+                    "isPath": false
+                },
+                {
+                    "name": "password",
+                    "value": "aaaaaaaa",
+                    "isPath": false
+                },
+                {
+                    "name": "password_confirmation",
+                    "value": "aaaaaaaa",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "658563e3-a335-4ff6-b68a-57775406735b",
+            "colId": "e9999e12-afc7-4d95-8cb1-92c91660e184",
+            "containerId": "",
+            "name": "subadmin-login",
+            "url": "127.0.0.1:8000/api/subadmin/login?email=subadmin2@e.c&password=aaaaaaaa",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-03-05T16:29:59.641Z",
+            "modified": "2024-03-05T16:29:59.641Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "email",
+                    "value": "subadmin2@e.c",
+                    "isPath": false
+                },
+                {
+                    "name": "password",
+                    "value": "aaaaaaaa",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "9548fed7-fbb3-4cf1-8691-12f77dc26fa3",
+            "colId": "e9999e12-afc7-4d95-8cb1-92c91660e184",
+            "containerId": "",
+            "name": "subadmin-profile",
+            "url": "127.0.0.1:8000/api/subadmin/profile",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-03-05T16:30:08.774Z",
+            "modified": "2024-03-05T16:30:08.774Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3N1YmFkbWluL2xvZ2luIiwiaWF0IjoxNzA5NjU1OTIwLCJleHAiOjE3MDk2NTk1MjAsIm5iZiI6MTcwOTY1NTkyMCwianRpIjoiYWJWYkhZQ3o5SHRVcmRFbiIsInN1YiI6IjIiLCJwcnYiOiJlZDRiM2U4ZmY0M2E2ODE1OWM5OGQxZGI2YzU1YzUxNzI1Y2YyOGM0Iiwicm9sZSI6InN1YmFkbWluIn0.iU8_R7c8_NCkgkhlmU1u6Dqf9wuRC8YiUOhjCiGyN7k"
+            },
+            "tests": []
+        },
+        {
+            "_id": "a315eb8d-c2e4-4e9f-aae9-0f01d86d84d3",
+            "colId": "e9999e12-afc7-4d95-8cb1-92c91660e184",
+            "containerId": "",
+            "name": "subadmin-logout",
+            "url": "127.0.0.1:8000/api/subadmin/logout",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2024-03-05T16:30:15.407Z",
+            "modified": "2024-03-05T16:30:15.407Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3N1YmFkbWluL2xvZ2luIiwiaWF0IjoxNzA5NjU1OTIwLCJleHAiOjE3MDk2NTk1MjAsIm5iZiI6MTcwOTY1NTkyMCwianRpIjoiYWJWYkhZQ3o5SHRVcmRFbiIsInN1YiI6IjIiLCJwcnYiOiJlZDRiM2U4ZmY0M2E2ODE1OWM5OGQxZGI2YzU1YzUxNzI1Y2YyOGM0Iiwicm9sZSI6InN1YmFkbWluIn0.iU8_R7c8_NCkgkhlmU1u6Dqf9wuRC8YiUOhjCiGyN7k"
+            },
+            "tests": []
+        }
+    ]
+}
